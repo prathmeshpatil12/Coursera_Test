@@ -15,15 +15,41 @@ h1 {
 
 .subele {
   background: grey;
-  border: 3px solid black;
+  border: 1px solid black;
   margin-right: 15px;
 }
-.subheading {
+
+.subheading1 {
+  font-size: 1.25em;
   float: right;
   width: 25%;
   height: 10%;
-  background: yellow;
-  border: 3px solid black;
+  background-color: #ff36a8;
+  border: 1px solid black;
+  padding: 5px;
+  color: black;
+  text-align: center;
+}
+
+.subheading2 {
+  font-size: 1.25em;
+  float: right;
+  width: 25%;
+  height: 10%;
+  background-color: #ff5736;
+  border: 1px solid black;
+  padding: 5px;
+  color: black;
+  text-align: center;
+}
+
+.subheading3 {
+  font-size: 1.25em;
+  float: right;
+  width: 25%;
+  height: 10%;
+  background-color: #ffda36;
+  border: 1px solid black;
   padding: 5px;
   color: black;
   text-align: center;
