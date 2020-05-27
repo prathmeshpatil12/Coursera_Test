@@ -95,6 +95,10 @@ font-family: 'Montserrat', sans-serif;
   .visible-xs {
   	display: none;
   }
+  
+  .visible-xs1 {
+	  display: none;
+	}
 }
 
 /********** Large devices only **********/
