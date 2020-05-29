@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /***** Header Start *****/
 .border1px {
 	border: 1px solid black;
@@ -159,4 +160,167 @@ font-family: 'Montserrat', sans-serif;
 	}
 }
 
+=======
+/***** Header Start *****/
+.border1px {
+	border: 1px solid black;
+}
+
+.bg-custom {
+	background-color: #addaff;
+}
+
+.h1 {
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: 3em;
+}
+
+#navbarNavDropdown {
+	text-align: center;
+	background-color: white;
+}
+
+#heading {
+	font-size: 2em;
+}
+
+#menu {
+	margin-top: 30px;
+}
+
+#second-font {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2em
+}
+
+hr.full-width {
+	width: 100%;
+	background-color: black;
+}
+
+hr {
+	width: 75%;
+	/*background-color: black;*/
+}
+
+
+/*****Header End*******/
+
+
+/****** Main Content Start ******/
+
+#mid {
+	background-color: #black;
+}
+
+.row {
+	margin-right: 15px;
+	margin-left: 15px;
+	border: 1px solid black;
+}
+
+.main-content {
+	margin-top: 50px;
+	/*border: 1px solid black;*/
+}
+
+.subtitle {
+	margin-top: 20px;
+	text-align: center;
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+.text-in-subtitiles {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2em;
+	padding: 0 15px;
+}
+
+.border-main, .border-main1 {
+	border-right: 1px solid black;
+}
+
+/****** Main Content End ********/
+
+/* Fonts
+
+font-family: 'Balsamiq Sans', cursive;
+font-family: 'Montserrat', sans-serif;
+
+*/
+
+
+
+/*****************Media Queries********************/
+
+/********** Extra Large devices only **********/
+@media (min-width: 1200px) {
+  .visible-xs {
+  	display: none;
+  }
+
+  .visible-xs1{
+  	display: none;
+  }
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-xs {
+    display: none;
+  }
+
+  .visible-xs1 {
+	display: none;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-xs {
+  	display: none;
+  }
+
+  .visible-xs1 {
+	  display: none;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 576px) and (max-width: 767px) {
+  .visible-xs {
+  	display: none;
+  }
+
+  .border-main1 {
+  	border-right: 0px solid black;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 575px) {
+	.hidden-xs {
+		display: none;
+	}
+
+	.border-main1 {
+  		border-right: 0px solid black;
+  	}
+
+	.border-main {
+		border-right: 0px solid black;
+	}
+
+	.col-xs-12 {
+		position: relative;
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+		-ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+}
+
+>>>>>>> 5a6e960ab0b74a20168f41cd34e2299853812279
 /**************** Media Queries End *****************/
